@@ -1,0 +1,25 @@
+
+spring:
+  profiles:
+    active: dev
+
+---
+#开发环境
+spring:
+  application:
+    name: abcmsc-config-dev
+  profiles: dev
+
+---
+#测试环境
+spring:
+  application:
+    name: abcmsc-config-test
+  profiles: test
+
+---
+#生产环境
+spring:
+  application:
+    name: abcmsc-config-pro
+  profiles: pro
